@@ -4,13 +4,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name='viewport'
       content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
-  <title>Vladyan</title>
+  <title>Tommy Hilfiger</title>
   <meta charset="utf-8">
- 
+   <link rel="icon" type="image/png" href="varsity-jacket.png"  />
+
 	<style>
-		
+		/** {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}*/
 div{
-  height:100%;
+  height:96%;
   width:100%;
   
 }
@@ -21,7 +26,7 @@ div{
 }
 .img1,.img2,.img3,.img4{
   width:49%;
-  height:321px;
+  height:296px;
   margin: 1px;
       display: flex;
     align-items: flex-end;
@@ -78,7 +83,7 @@ p{
 
     font-size: 12px;
     width: 25%;
-    margin-left: 12px;
+    margin-left: 7px;
     font-family: Segoe UI Light;
     color: black;
     font-weight: bolder;
@@ -92,6 +97,16 @@ a:link{
 }
 .color:hover{
 	color: red;
+  font-size: 15px;
+}
+.header{
+  width: 100%;
+  height: 30px;
+  background-image: url(logo.png);
+  background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -5px;
+
 }
 @media only screen and (min-width: 301px) and (max-width: 1024px) {
 
@@ -104,16 +119,29 @@ a:link{
     height: 50%;
     margin: 1px;
 }
+.img3{
+  order: 1;
+}
+.img4{
+  order: 4;
+}
+.img1{
+  order: 2;
+}
+.img2{
+  order: 3;
+}
 .img5{
 	width: 99%;
 	margin-top:5px;
+  order: 0;
 }
 div{
 	height: 90%;
 }
 p{
 	margin-left: 7px;
-	font-size: 11px;
+	font-size: 10px;
 }
 .img3,.img4{
 	align-items: flex-start;
@@ -157,7 +185,17 @@ margin-right: 10px;
 	</style>
 </head>
 <body>
+<div class="header">
+
+</div>
 <div class="flex">
+<div class="img5">
+  <p id ="big-img">Tommy Hilfiger
+199$<br>
+<a href="https://vk.com/vsazonchik"><strong class="color">Buy</strong></a>
+  </p>
+
+</div>
   <div class ="inner-flex">
 <div class="img1">
 
@@ -190,12 +228,6 @@ margin-right: 10px;
 	</p>
 </div>
   </div>
-<div class="img5">
-	<p id ="big-img">Tommy Hilfiger
-199$<br>
-<a href="https://vk.com/vsazonchik"><strong class="color">Buy</strong></a>
-	</p>
 
-</div>
 </div>
 </body>
