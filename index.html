@@ -47,6 +47,7 @@ div{
        background-position: 50%;
     background-size: cover;
     background-image: url(tom.jpg);
+
 }
 .img4{
 	background-repeat: no-repeat;
@@ -63,6 +64,9 @@ div{
     width: 49%;
         display: flex;
     align-items: flex-end;
+}
+.color{
+	color: #3498db;
 }
 .inner-flex{
   display:flex;
@@ -83,8 +87,12 @@ p{
 #big-img{
 	width: 12%;
 }
-
-
+a:link{
+	text-decoration: none;
+}
+.color:hover{
+	color: red;
+}
 @media only screen and (min-width: 301px) and (max-width: 1024px) {
 
 .inner-flex{
@@ -112,6 +120,14 @@ p{
 	justify-content: flex-end;
 }
 	}
+	@media only screen and (min-width: 320px) and (max-width: 375px) {
+.img3 p{
+	margin-top: 3px;
+}
+.img4 p{
+	margin-top: 3px;
+}
+	}
 	@media only screen and (min-width: 375px) and (max-width: 1024px) {
 p{
 	font-size: 12px;
@@ -121,6 +137,7 @@ p{
 #big-img {
     width: 9%;
 }
+
 
 	}
 	@media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -145,33 +162,38 @@ margin-right: 10px;
 <div class="img1">
 
 	<p>Tommy Hilfiger
-999$
+999$<br>
+<a href="https://vk.com/vsazonchik"><strong class="color">Buy</strong></a>
 	</p>
 	
 
 </div>
 <div class="img2">
 	<p>Tommy Hilfiger
-299$
+299$<br>
+<a href="https://vk.com/vsazonchik"><strong class="color">Buy</strong></a>
 	</p>
 
 </div>
 <div class="img3">
 	<p>Tommy Hilfiger
-199$
+199$<br>
+<a href="https://vk.com/vsazonchik"><strong class="color">Buy</strong></a>
 	</p>
 
 </div>
 <div class="img4">
 	
 	<p>Tommy Hilfiger
-1999$
+1999$<br>
+<a href="https://vk.com/vsazonchik"><strong class="color">Buy</strong></a>
 	</p>
 </div>
   </div>
 <div class="img5">
 	<p id ="big-img">Tommy Hilfiger
-199$
+199$<br>
+<a href="https://vk.com/vsazonchik"><strong class="color">Buy</strong></a>
 	</p>
 
 </div>
