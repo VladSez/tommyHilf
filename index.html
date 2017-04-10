@@ -118,15 +118,24 @@ a:link{
         background-size: 220px 20px;
 
 }
+#header{
+  display: none;
+}
 @media only screen and (min-width: 301px) and (max-width: 1024px) {
 
 .inner-flex{
 	width: 100%;
   height: 100%;
 }
-#invisible{
+#header{
   display: block;
-  margin-top: 30px;
+   width: 100%;
+  height: 30px;
+  background-image: url(Tommylogo.png);
+  background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -5px;
+        background-size: 220px 20px;
 }
 .img1, .img2, .img3, .img4 {
     width: 49%;
@@ -225,7 +234,7 @@ margin-right: 10px;
   </p>
 
 </div>
-<p id = "invisible">Hello world</p>
+<div id="header"></div>
   <div class ="inner-flex">
 <div class="img1">
 
