@@ -18,8 +18,8 @@
    <link rel="icon" type="image/png" href="suit.png" sizes="64x64" />
    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 
-	<style>
-		/** {
+  <style>
+    /** {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -38,13 +38,13 @@
 }
 
 .img1{
-	background-repeat: no-repeat;
+  background-repeat: no-repeat;
        background-position: 50%;
     background-size: cover;
     background-image: url(chinos.jpg);
 }
 .img2{
-	background-repeat: no-repeat;
+  background-repeat: no-repeat;
        background-position: 50%;
     background-size: cover;
     background-image: url(tommy.jpg);
@@ -53,21 +53,21 @@
 
 }
 .img3{
-	background-repeat: no-repeat;
+  background-repeat: no-repeat;
        background-position: 50%;
     background-size: cover;
     background-image: url(tom.jpg);
 
 }
 .img4{
-	background-repeat: no-repeat;
+  background-repeat: no-repeat;
        background-position: 50%;
     background-size: cover;
     background-image: url(t.jpg);
     width: 50%;
 }
 .img5{
-	background-repeat: no-repeat;
+  background-repeat: no-repeat;
        background-position: 50%;
     background-size: cover;
     background-image: url(hilf.jpg);
@@ -78,7 +78,7 @@
 
 }
 .color{
-	color: #3498db;
+  color: #3498db;
 }
 .inner-flex{
   display:flex;
@@ -100,13 +100,13 @@ p{
 
 }
 #big-img{
-	width: 12%;
+  width: 12%;
 }
 a:link{
-	text-decoration: none;
+  text-decoration: none;
 }
 .color:hover{
-	color: red;
+  color: red;
   font-size: 15px;
 }
 .header{
@@ -119,6 +119,48 @@ a:link{
         background-size: 220px 20px;
 
 }
+.btn {
+        height: 35px;
+    width: 105px;
+      
+  cursor:pointer;
+    animation: pulse 1s infinite alternate;
+  margin-top: 20px;
+
+}
+.bg:hover{
+  background: red;
+}
+.bg{
+  color:white;
+      font-size: 23px;
+    font-weight: 800;
+  background: blue;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: black solid 2px;
+  opacity:1;
+}
+a{
+  text-decoration:none;
+    color:black;
+  font-size:22px;
+  font-weight:bold;
+
+}
+@keyframes pulse{
+  0%{
+    transform:scale(1,1);
+
+  }
+  100%{
+        transform:scale(1.1, 1.35);
+    opacity:0.8;
+
+  }
+}
+
 #header{
   display: none;
 }
@@ -159,8 +201,8 @@ a:link{
   order: 3;
 }
 .img5{
-	width: 100%;
-	margin-top:5px;
+  width: 100%;
+  margin-top:5px;
      align-items: flex-start;
     justify-content: flex-end;
     margin-bottom: 15px;
@@ -168,29 +210,29 @@ a:link{
 }
 
 p{
-	margin-left: 7px;
-	font-size: 10px;
+  margin-left: 7px;
+  font-size: 10px;
 }
 .img3,.img4{
-	align-items: flex-start;
-	justify-content: flex-end;
+  align-items: flex-start;
+  justify-content: flex-end;
 }
-	}
-	@media only screen and (min-width: 320px) and (max-width: 375px) {
+  }
+  @media only screen and (min-width: 320px) and (max-width: 375px) {
 .img3 p{
-	margin-top: 3px;
+  margin-top: 3px;
 }
 .img4 p{
-	margin-top: 3px;
+  margin-top: 3px;
 }
  
 
-	}
-	@media only screen and (min-width: 375px) and (max-width: 1024px) {
+  }
+  @media only screen and (min-width: 375px) and (max-width: 1024px) {
 p{
-	font-size: 12px;
-	width: 20%;
-	margin-right: 5px;
+  font-size: 12px;
+  width: 20%;
+  margin-right: 5px;
 }
 #big-img {
     width: 9%;
@@ -203,17 +245,17 @@ p{
     height: 100%;
 }
  
-	}
-	@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
 p{
-	width: 23%;
-	margin-right: 5px;
+  width: 23%;
+  margin-right: 5px;
 }
 #big-img {
     width: 11%;
 }
-	}
-		@media only screen and (min-width: 375px) and (max-width: 414px) {
+  }
+    @media only screen and (min-width: 375px) and (max-width: 414px) {
 p{
 margin-right: 10px;
 
@@ -271,10 +313,15 @@ p{
   width: 27%;
 }
   }
-	</style>
+  </style>
 </head>
 <body>
 <div class="header">
+<div class = "btn">
+  <div class = "bg">
+  Click me
+</div>
+  </div>
 
 </div>
 <div class="flex">
@@ -289,33 +336,33 @@ p{
   <div class ="inner-flex">
 <div class="img1">
 
-	<p>Tommy Hilfiger
+  <p>Tommy Hilfiger
 999$<br>
 <a href="https://vk.com/vsazonchik"><strong class="color">Buy</strong></a>
-	</p>
-	
+  </p>
+  
 
 </div>
 <div class="img2">
-	<p>Tommy Hilfiger
+  <p>Tommy Hilfiger
 299$<br>
 <a href="https://vk.com/vsazonchik"><strong class="color">Buy</strong></a>
-	</p>
+  </p>
 
 </div>
 <div class="img3">
-	<p>Tommy Hilfiger
+  <p>Tommy Hilfiger
 199$<br>
 <a href="https://vk.com/vsazonchik"><strong class="color">Buy</strong></a>
-	</p>
+  </p>
 
 </div>
 <div class="img4">
-	
-	<p>Tommy Hilfiger
+  
+  <p>Tommy Hilfiger
 1999$<br>
 <a href="https://vk.com/vsazonchik"><strong class="color">Buy</strong></a>
-	</p>
+  </p>
 </div>
   </div>
 
